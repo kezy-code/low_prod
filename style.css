@@ -187,8 +187,6 @@ body{
     position: absolute;
     width: 100px;
     top: 740px;
-    left: 575px;
-    right: 575px;
     transition: 300ms;
 }
 .fleche:hover{
