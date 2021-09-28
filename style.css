@@ -192,3 +192,16 @@ body{
 .fleche:hover{
     transform: translateY(20px);
 }
+.plus_bas{
+    position: absolute;
+    top: 1800px;
+    background-color: rgb(64, 2, 163);
+    border-radius: 25px;
+    padding: 10px 30px;
+    border: solid white;
+
+}
+.espace_un{
+    position: absolute;
+    top: 2200px;
+}
