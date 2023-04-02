@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Low Prod - Beatmaker</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="beatstore.html">Beatstore</a></li>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Low Prod</h1>
+      <p>Beatmaker professionnel</p>
+      <a href= "https://youtube.com/@lowprods" class="btn">Découvrir</a>
+    </section>
+
+    <section class="beatstore">
+      <h2>Beatstore</h2>
+      <p>Découvrez mes dernières productions</p>
+      <div class="beat-grid">
+        <div class="beat">
+          <img src="GLEETCH.png" alt="Beat 1">
+          <h3>GLEETCH</h3>
+          <a href="beatstore.html" class="btn">Écouter</a>
+        </div>
+        <div class="beat">
+          <img src="beat2.jpg" alt="Beat 2">
+          <h3>Beat 2</h3>
+          <a href="beatstore.html" class="btn">Écouter</a>
+        </div>
+        <div class="beat">
+          <img src="beat3.jpg" alt="Beat 3">
+          <h3>Beat 3</h3>
+          <a href="beatstore.html" class="btn">Écouter</a>
+        </div>
+        <div class="beat">
+          <img src="beat4.jpg" alt="Beat 4">
+          <h3>Beat 4</h3>
+          <a href="beatstore.html" class="btn">Écouter</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2>À propos</h2>
+      <p>Je suis Low Prod, beatmaker depuis 3 ans. je suis passionné par la création de beats uniques et originaux.</p>
+      <a href="#" class="btn">En savoir plus</a>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Contact</h2>
+      <form id="my-form" action="https://formspree.io/f/meqwrrzr" method="POST">
+        <label>Email:</label>
+        <input type="email" name="email" />
+        <label>Message:</label>
+        <input type="text" name="message" />
+        <button id="my-form-button">Submit</button>
+        <p id="my-form-status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2023 Low Prod - Tous droits réservés</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="mail.js"></script>
+</body>
+</html>

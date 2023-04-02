@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beatstore</title>
+  <link rel="stylesheet" href="style2.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Beatstore</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="#">Beats</a></li>
+        <li><a href="index.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="beat">
+      <h2>GLEETCH</h2>
+      <audio controls>
+        <source src="GLEETCH.mp3" type="audio/mpeg">
+      </audio>
+    </section>
+    <section class="beat">
+      <h2>Beat 2</h2>
+      <audio controls>
+        <source src="beat2.mp3" type="audio/mpeg">
+      </audio>
+    </section>
+    <section class="beat">
+      <h2>Beat 3</h2>
+      <audio controls>
+        <source src="beat3.mp3" type="audio/mpeg">
+      </audio>
+    </section>
+  </main>
+  <section class="contact" id="contact">
+    <h2>Acheter</h2>
+    <form id="my-form" action="https://formspree.io/f/meqwrrzr" method="POST">
+      <label>Email:</label>
+      <input type="email" name="email" />
+      <label>Ecrire le nom de la prod et indiquer le prix:</label>
+      <input type="text" name="message" />
+      <button id="my-form-button">Demander</button>
+      <p id="my-form-status"></p>
+    </form>
+  </section>
+  <footer>
+    <p>© Beatmaker Low Prod 2021</p>
+  </footer>
+  <script src="script2.js"></script>
+  <script src="mail.js"></script>
+</body>
+</html>
